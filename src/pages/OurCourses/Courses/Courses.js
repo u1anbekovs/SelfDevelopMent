@@ -15,7 +15,7 @@ const Courses = () => {
 
                         <div className="mk--cards">
                             {OurApi.slice(0,3).map((el) => (
-                                <div onClick={() => navigate(`/button`)} className="mk--cards__cup">
+                                <div onClick={() => navigate(`/button`) || window.scroll(0,0)} className="mk--cards__cup">
                                     <h3>{el.title}</h3>
                                     <div className="mk--cards__cup--info">
                                         <h4>{el.learn}</h4>

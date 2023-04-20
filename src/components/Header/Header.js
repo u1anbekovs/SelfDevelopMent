@@ -43,9 +43,9 @@ const Header = () => {
                             }}>SELF DEVELOPING SCHOOL</span>
                         </div>
                         <nav className='header--navbar'>
-                            <NavLink to={"/"}>Главная</NavLink>
-                            <NavLink to={"/our-course"}>Наши курсы</NavLink>
-                            <NavLink to={"/about-us"}>О нас</NavLink>
+                            <NavLink onClick={() => window.scroll(0,0)} to={"/"}>Главная</NavLink>
+                            <NavLink onClick={() => window.scroll(0,0)} to={"/our-course"}>Наши курсы</NavLink>
+                            <NavLink onClick={() => window.scroll(0,0)} to={"/about-us"}>О нас</NavLink>
                         </nav>
                         <NavLink to={"/login"}>
                             <div onClick={local} className='header--login'>
