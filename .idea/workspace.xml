@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="" />
+    <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="" />
+      <changelist id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="" />
       <created>1681365904325</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -131,6 +134,7 @@
       <workItem from="1681924694612" duration="186000" />
       <workItem from="1681924941012" duration="3037000" />
       <workItem from="1681928108852" duration="1375000" />
+      <workItem from="1682001257928" duration="1037000" />
     </task>
     <servers />
   </component>
