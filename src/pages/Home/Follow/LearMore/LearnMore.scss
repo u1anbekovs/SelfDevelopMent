@@ -3,6 +3,7 @@
 
   .learn {
     padding-bottom: 150px;
+
     &--text {
       p {
         font-family: 'Montserrat', sans-serif;
@@ -172,6 +173,42 @@
         color: #FFFFFF;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  #learn .learn--text h1 {
+    font-size: 30px;
+  }
+  #learn .learn--text h2 {
+    font-size: 19px;
+  }
+  #learn .learn--var p {
+    font-size: 19px;
+  }
+  #learn .learn--var1 p {
+    font-size: 19px;
+  }
+  #learn .learn {
+    padding-bottom: 0;
+  }
+  #learn .learn--var1 h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 576px) {
+  #learn .learn--block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #learn .learn--text h1 {
+    line-height: 40px;
+  }
+  #learn .learn--block__colon {
+    margin: 40px 0;
   }
 }
 
