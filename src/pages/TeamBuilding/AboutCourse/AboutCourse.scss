@@ -1,0 +1,58 @@
+#aboutCourse{
+  padding-top: 100px;
+  .about{
+    position: relative;
+    &--book1{
+      position: absolute;
+      opacity: 0.7;
+      width: 15%;
+      left: 200px;
+    }
+    &--book2{
+      position: absolute;
+      width: 8%;
+      right: 0;
+    }
+    h1{
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+      margin: 30px 0;
+    }
+    p{
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 29px;
+      margin: 22px 0;
+      color: #FFFFFF;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #aboutCourse .about h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #aboutCourse .about p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 18px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #aboutCourse .about h1 {
+    font-size: 26px;
+    line-height: 6px;
+  }
+  #aboutCourse .about p {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 13px 0;
+  }
+
+}

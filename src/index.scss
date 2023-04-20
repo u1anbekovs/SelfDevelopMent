@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./components/Header/Header.scss";
+@import "./components/Footer/Footer.scss";
+@import "./pages/Home/Home.scss";
+@import "./pages/Home/Hero/Hero";
+@import "./pages/Login/Index";
+@import "./pages/Books/Books.scss";
+@import "./pages/Home/Accardeon/Accardeon";
+@import "./pages/Login/Index";
+@import "./pages/Home/Follow/Buy/Buy";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/// //////////////////////////////////////////////////////////////////
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(155deg, #D78B59 3%, #595FEB 55%) fixed;
+  background: linear-gradient(160deg, #D78B59, #595FEB 50%) fixed;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(160deg, #D78B59 7%, #595FEB 70%) fixed;
+  background: linear-gradient(160deg, #D78B59 5%, #595FEB 70%) fixed;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 100vh;
+  background-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+

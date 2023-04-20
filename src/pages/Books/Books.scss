@@ -1,0 +1,212 @@
+#book {
+  padding: 200px 0;
+
+  .book {
+    &--styImg {
+      position: absolute;
+      left: 26%;
+      padding-top: 26%;
+    }
+    &--styImg1 {
+      position: absolute;
+      right: 0;
+      padding-top: 40%;
+    }
+    &--button {
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+    }
+
+    &--tabs {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 30px 0;
+
+      button {
+        margin-right: 20px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+
+      button:focus {
+        background: #FFFFFF;
+        color: #595FEB;
+      }
+    }
+
+    &--tabs1 {
+      padding: 30px 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: left;
+      justify-content: center;
+
+      button {
+        margin-right: 20px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+
+      button:focus {
+        background: #FFFFFF;
+        color: #595FEB;
+      }
+    }
+
+    &--cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+
+
+      &__car {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(7.5px);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+
+        &--logos {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          h3 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+          }
+
+          button {
+            background: #FFFFFF;
+            border-radius: 80px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #595FEB;
+          }
+        }
+
+        &--item {
+          margin-top: 15px;
+          padding-top: 5px;
+          border-top: 2px solid white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+          }
+        }
+
+        &--info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px 0;
+
+          h4 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+          }
+
+          &__btn {
+            button {
+              background: rgba(255, 255, 255, 0.1);
+              border: 0.5px solid #FFFFFF;
+              border-radius: 5px;
+              padding: 5px;
+              margin: 0 5px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #book .book--cards {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  #book .book--tabs1 button {
+    margin: 10px;
+  }
+  #book .book--tabs button {
+    margin: 10px;
+  }
+}
+@media (max-width: 415px) {
+  #book .book--cards__car--info__btn button {
+    margin: 0 2px;
+    font-size: 10px;
+    padding: 1px;
+  }
+  #book .book--cards__car--logos h3 {
+    font-size: 20px;
+  }
+  #book .book--cards__car--info h4 {
+    font-size: 12px;
+  }
+  #book .book--cards__car--item a {
+    font-size: 12px;
+  }
+}
