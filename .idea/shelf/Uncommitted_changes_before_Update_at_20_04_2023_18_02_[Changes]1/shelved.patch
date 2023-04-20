@@ -1,0 +1,20 @@
+Index: src/pages/Login/FirstLogin/password/password.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pages/Login/FirstLogin/password/password.js b/src/pages/Login/FirstLogin/password/password.js
+--- a/src/pages/Login/FirstLogin/password/password.js	
++++ b/src/pages/Login/FirstLogin/password/password.js	
+@@ -12,11 +12,6 @@
+        return  setStatus(e.target.value)
+     }
+ 
+-
+-
+-
+-
+-
+     return (
+         <div id='password'>
+             <div className="container">

@@ -15,6 +15,7 @@ import Self from "./pages/Home/Follow/Buy/Self/Self";
 import Control from "./pages/Home/Follow/Buy/Self/Control";
 import TeamBuilding from './pages/TeamBuilding/TeamBuilding'
 import TwoLogin from "./pages/Login/FirstLogin/password/TwoLogin/TwoLogin";
+import Account from "./components/Header/account/Account";
 
 
 
@@ -39,8 +40,7 @@ function App() {
                 <Route path="/password-url" element={<Password/>}/>
                 <Route path="/login-url" element={<FirstLogin/>}/>
                 <Route path="/Two-url" element={<TwoLogin/>}/>
-
-
+                <Route path="/account" element={<Account/>}/>
             </Routes>
             <Footer/>
         </div>
