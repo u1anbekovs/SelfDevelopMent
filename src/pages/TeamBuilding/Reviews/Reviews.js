@@ -1,9 +1,6 @@
 import React, {useState} from "react";
 import {AiFillStar} from "react-icons/ai";
 import "./Reviews.scss"
-// import take from "../../../assets/img/take.png"
-// import scroll from "../../../assets/img/scrol-book.png"
-// import small from "../../../assets/img/small-book.png"
 import person from "../../../assets/img/Ellipse 51.svg"
 
 
@@ -174,18 +171,7 @@ const Reviews = () => {
                             так же актуальность материалов
                         </p>
                     </div>
-
                 </div>
-                <div className="bloc">
-                    <div style={{background: well !== true ? "gray" : "wheat"}} className=" bloc--blocs"></div>
-                    <div style={{background: well2 !== true ? "wheat" : "gray"}} className=" bloc--blocs3"></div>
-                    <div style={{background: well3 !== true ? "gray" : "wheat"}} className=" bloc--blocs2"></div>
-                </div>
-                {/*<div className="image">*/}
-                {/*    <img src={take} className="image--take" alt="img"/>*/}
-                {/*    <img src={scroll} className="image--scroll" alt="img"/>*/}
-                {/*    <img src={small} className="image--small" alt="img"/>*/}
-                {/*</div>*/}
             </div>
         </div>
     );

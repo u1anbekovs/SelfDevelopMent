@@ -1,24 +1,29 @@
 #subscription {
   padding: 200px 0;
-  .buyImg{
+
+  .buyImg {
     position: absolute;
     left: 450px;
   }
-  .buyImg2{
+
+  .buyImg2 {
     position: absolute;
     right: 100px;
     top: 600px;
   }
-  .buyImg3{
+
+  .buyImg3 {
     position: absolute;
     left: 300px;
   }
-  .buyImg4{
+
+  .buyImg4 {
     position: absolute;
     right: 100px;
     top: 100px;
   }
-  .buyImage{
+
+  .buyImage {
     position: absolute;
     left: 0;
     top: 600px;
@@ -327,5 +332,58 @@
         border-bottom: 1px solid white;
       }
     }
+  }
+}
+
+@media (max-width: 576px) {
+  #subscription .subscription {
+    width: 100%;
+    height: 100%;
+  }
+  #subscription .subscription--block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #subscription .subscription--contact input {
+    width: 100%;
+  }
+  #subscription .subscription--btn1 {
+    width: 100%;
+    padding: 5px 0;
+  }
+  #subscription .subscription--btn {
+    width: 100%;
+    padding: 5px 0;
+  }
+  #subscription .buyImage {
+    display: none;
+  }
+  #subscription .buyImg {
+    display: none;
+  }
+  #subscription .buyImg2 {
+    display: none;
+  }
+  #subscription .buyImg3 {
+    display: none;
+  }
+  #subscription .subscription--block__colon {
+    margin: 10px 0;
+  }
+  #subscription .subscription--label label {
+    font-size: 12px;
+  }
+  #subscription .subscription--card1 {
+    flex-direction: column;
+  }
+  #subscription .subscription--card1__input--type {
+    width: 100%;
+    margin: 5px 0;
+  }
+  #subscription .subscription--card1__input--type1 {
+    width: 100%;
+    margin: 5px 0;
   }
 }
