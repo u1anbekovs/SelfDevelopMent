@@ -12,11 +12,6 @@ const Password = () => {
        return  setStatus(e.target.value)
     }
 
-
-
-
-
-
     return (
         <div id='password'>
             <div className="container">

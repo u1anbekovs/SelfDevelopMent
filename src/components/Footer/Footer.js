@@ -22,13 +22,8 @@ import {useDispatch} from "react-redux";
 const Footer = () => {
 
     const use = useSelector(state => state.login)
-
-
-
     const dispatch = useDispatch()
     const {payment} = useSelector(state => state)
-
-
     return (
         <div style={{
             display: !payment && !use ? "block" : "none"
