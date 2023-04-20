@@ -19,7 +19,7 @@ const Hero = () => {
                             <p>Получайте новые знания, навыки и<br/> возможности для эффективной жизни.</p>
                             <div className="leave--leave-block__leave-text--btn">
                                 <div className="leave--leave-block__leave-text--btn__btn-one">
-                                    <button onClick={() => navigate(`/learn-more`)}>Подобрать пакет</button>
+                                    <button onClick={() => navigate(`/learn-more`) || window.scroll(0,0)}>Подобрать пакет</button>
                                 </div>
                                 <div className="leave--leave-block__leave-text--btn__btn-two">
                                     <button>Войти</button>

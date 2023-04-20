@@ -20,9 +20,9 @@ const More = () => {
 
                     <img className="more__image" src={imgHero1} alt=""/>
                     <div className="more__btn">
-                        <button onClick={() => navigate('/buy')} className="more__btn--add">Подписаться
+                        <button onClick={() => navigate('/buy') || window.scroll(0,0)} className="more__btn--add">Подписаться
                         </button>
-                        <button onClick={() => navigate(`/learn-more`)} className="more__btn--remove">Узнать больше</button>
+                        <button onClick={() => navigate(`/learn-more`) || window.scroll(0,0)} className="more__btn--remove">Узнать больше</button>
                     </div>
 
                 </div>

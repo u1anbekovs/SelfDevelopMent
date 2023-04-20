@@ -1,0 +1,15 @@
+Index: src/components/Header/Header.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Header/Header.js b/src/components/Header/Header.js
+--- a/src/components/Header/Header.js	
++++ b/src/components/Header/Header.js	
+@@ -1,6 +1,3 @@
+-
+-
+-
+ import React, {useState} from 'react';
+ import {NavLink} from 'react-router-dom';
+ import Logo from "./../../assets/img/logo.svg"
