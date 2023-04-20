@@ -78,6 +78,7 @@ const Header = () => {
                         <div/>
                     </div>
                 </div>
+                <NavLink to={"/account"}>account</NavLink>
             </div>
         </div>
     );

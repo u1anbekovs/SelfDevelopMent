@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_04_2023_18_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_04_2023_18_40__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_04_2023_18_40__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_04_2023_18_40__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +142,7 @@
       <workItem from="1682001257928" duration="1037000" />
       <workItem from="1681993624670" duration="330000" />
       <workItem from="1682001257928" duration="2804000" />
+      <workItem from="1682006848781" duration="5429000" />
     </task>
     <servers />
   </component>
