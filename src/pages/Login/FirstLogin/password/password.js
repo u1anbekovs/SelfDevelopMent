@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Book from "../../../../assets/img/logo.svg";
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 
 
@@ -34,7 +34,7 @@ const Password = () => {
                             }}
                                    type="Email" placeholder='Email...' />
                                 <button onClick={getStatus}>Отправить инструкцию</button>
-                                <h4 hidden={status}>Уже есть аккаунт.<span> Войти</span> </h4>
+                            <Link to="/login-url"><h4 hidden={status} className="cursor-pointer">Уже есть аккаунт.<span> Войти</span> </h4></Link>
                         </div>
                     </div>
                 </div>
