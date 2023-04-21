@@ -3,6 +3,7 @@ import './Account.scss'
 import Payment from "./payment/Payment";
 import Operations from "./operations/Operations";
 import Common from "./common/Common";
+import Bag from "./bag/Bag";
 
 const Account = () => {
     const [selectedTab, setSelectedTab] = useState(0)
@@ -34,7 +35,6 @@ const Account = () => {
                             selectedTab === 0 &&
                             <Common/>
                         }
-
                         {
                             selectedTab === 1 &&
                             <Payment/>
@@ -42,6 +42,10 @@ const Account = () => {
                         {
                             selectedTab === 2 &&
                             <Operations/>
+                        }
+                        {
+                            selectedTab === 3 &&
+                            <Bag/>
                         }
 
                     </div>
