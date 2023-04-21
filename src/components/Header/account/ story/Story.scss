@@ -1,0 +1,31 @@
+.story {
+  width: 967px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 1px;
+  &--texts{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+
+  p {
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+}
