@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './Account.scss'
 import {NavLink} from "react-router-dom";
 import Payment from "./payment/Payment";
+import Operations from "./operations/Operations";
 
 const Account = () => {
     const [selectedTab, setSelectedTab] = useState(0)
@@ -62,6 +63,10 @@ const Account = () => {
                         {
                             selectedTab === 1 &&
                             <Payment/>
+                        }
+                        {
+                            selectedTab === 2 &&
+                            <Operations/>
                         }
 
                     </div>

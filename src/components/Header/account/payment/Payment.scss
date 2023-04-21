@@ -35,7 +35,7 @@
       color: #FFFFFF;
     }
 
-    p{
+    p {
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -44,7 +44,8 @@
       font-size: 16px;
       line-height: 24px;
       color: #FFFFFF;
-      span{
+
+      span {
         padding-left: 8px;
       }
     }
@@ -62,18 +63,22 @@
       align-items: center;
       justify-content: space-between;
     }
-    &__acc{
+
+    &__acc {
       padding: 18px 30px;
-      &--input{
+
+      &--input {
         padding: 20px 0;
-        p{
+
+        p {
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
           line-height: 17px;
           color: #FFFFFF;
         }
-        input{
+
+        input {
           padding: 9px;
           width: 100%;
           border: 1px solid #FFFFFF;
@@ -83,19 +88,22 @@
           color: white;
         }
       }
-      &--inputOne{
+
+      &--inputOne {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        &__two{
-          p{
+
+        &__two {
+          p {
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
             color: #FFFFFF;
           }
-          input{
+
+          input {
             padding: 9px;
             width: 372px;
             border: 1px solid #FFFFFF;
@@ -117,7 +125,6 @@
       height: 100%;
 
 
-
       summary {
         display: flex;
         align-items: center;
@@ -133,5 +140,84 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1140px) {
+  .payment--textOne details {
+    width: 740px;
+  }
+  .payment--textOne__acc--inputOne__two input {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .payment--textOne details {
+    width: 100%;
+  }
+  .payment--textOne__image {
+    width: 25%;
+  }
+  .payment--textOne__acc--inputOne__two input {
+    width: 100%;
+  }
+  .payment--text h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .payment--textOne__image {
+    width: 35%;
+  }
+  .payment--textOne__image1 {
+    width: 15%;
+  }
+  .payment--textOne__acc--input input {
+    padding: 0;
+  }
+  .payment--textOne__acc--inputOne__two input {
+    padding: 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .payment {
+    padding: 30px;
+  }
+  .payment--text h1 {
+    font-size: 25px;
+  }
+  .payment--textOne__image1 {
+    width: 40%;
+  }
+  .payment--textOne__image {
+    width: 50%;
+  }
+  .payment--textOne__acc--inputOne {
+    flex-direction: column;
+  }
+  .payment--textOne__acc--inputOne__two input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 451px) {
+  .payment--textOne__image {
+    width: 100%;
+  }
+  .payment--textOne__acc {
+    padding: 8px;
+  }
+  .payment--text h1 {
+    font-size: 20px;
+  }
+  .payment--text p {
+    font-size: 13px;
+  }
+  .payment--textOne p {
+    font-size: 13px;
   }
 }
