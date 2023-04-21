@@ -1,0 +1,137 @@
+.payment {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 1px;
+
+  &--text {
+    padding-bottom: 40px;
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      color: #FFFFFF;
+    }
+
+    p {
+      padding-top: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+
+    }
+  }
+
+  &--textOne {
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    p{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      span{
+        padding-left: 8px;
+      }
+    }
+
+    &__image {
+      width: 18%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__image1 {
+      width: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__acc{
+      padding: 18px 30px;
+      &--input{
+        padding: 20px 0;
+        p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF;
+        }
+        input{
+          padding: 9px;
+          width: 100%;
+          border: 1px solid #FFFFFF;
+          border-radius: 1px;
+          background: transparent;
+          outline: none;
+          color: white;
+        }
+      }
+      &--inputOne{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__two{
+          p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+          }
+          input{
+            padding: 9px;
+            width: 372px;
+            border: 1px solid #FFFFFF;
+            border-radius: 1px;
+            background: transparent;
+            outline: none;
+            color: white;
+          }
+        }
+      }
+    }
+
+    details {
+      margin: 18px 0;
+      padding: 10px;
+      border: 1px solid #FFFFFF;
+      border-radius: 1px;
+      width: 867px;
+      height: 100%;
+
+
+
+      summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
