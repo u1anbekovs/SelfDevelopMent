@@ -1,0 +1,86 @@
+.safety {
+  width: 967px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 1px;
+  button{
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 1px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #595FEB;
+  }
+
+  &--password {
+    padding: 50px 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    &__pass {
+      width: 40%;
+      h4 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+
+      p {
+        padding: 15px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+      }
+    }
+
+    &__input {
+      width: 50%;
+      input {
+        width: 100%;
+        padding: 7px;
+        background: transparent;
+        outline: none;
+        color: white;
+        border: 1px solid #FFFFFF;
+        border-radius: 1px;
+      }
+
+      p {
+        padding: 10px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  &--tex {
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+    }
+
+    p {
+      padding-top: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
+}
