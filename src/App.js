@@ -1,8 +1,8 @@
-import { Route, Routes } from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Home from "./pages/Home/Home"
-import { useSelector } from "react-redux";
+import {useSelector} from "react-redux";
 import Index from "./pages/Login/Index";
 import Books from "./pages/Books/Books";
 import LearnMore from "./pages/Home/Follow/LearMore/LearnMore";
@@ -16,7 +16,7 @@ import Control from "./pages/Home/Follow/Buy/Self/Control";
 import TeamBuilding from './pages/TeamBuilding/TeamBuilding'
 import TwoLogin from "./pages/Login/FirstLogin/password/TwoLogin/TwoLogin";
 import Account from "./components/Header/account/Account";
-
+import Congras from "./components/Header/account/certificates/Congras";
 
 
 function App() {
@@ -41,6 +41,7 @@ function App() {
                 <Route path="/login-url" element={<FirstLogin/>}/>
                 <Route path="/Two-url" element={<TwoLogin/>}/>
                 <Route path="/account" element={<Account/>}/>
+                <Route path="/congratulations" element={<Congras/>}/>
             </Routes>
             <Footer/>
         </div>

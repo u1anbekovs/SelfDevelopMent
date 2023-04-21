@@ -52,6 +52,7 @@ const Header = () => {
                                 </button>
                             </div>
                         </NavLink>
+
                         <div onClick={() => setMenu(!menu)} className='header--menu'>
                             <div className='header--menu__parentMenu'>
                                 <div className={menu ? "header--menu__parentMenu--one" : ""}/>
