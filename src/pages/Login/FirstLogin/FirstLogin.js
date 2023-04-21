@@ -10,8 +10,8 @@ const FirstLogin = () => {
     const [info, setInfo] = useState(false)
     const [emailGo, setEmailGo] = useState(false)
     const [passwordGo, setPasswordGo] = useState(false)
-    const [emailError, setEmailError] = useState('Емайл не может быть пустым')
-    const [passwordError, setPasswordError] = useState('Пароль не может быть пустым')
+    const [emailError, setEmailError] = useState('email не может быть пустым')
+    const [passwordError, setPasswordError] = useState('пароль не может быть пустым')
     const [formValid, setFormValid] = useState(false)
 
 
@@ -28,9 +28,9 @@ const FirstLogin = () => {
         setEmail(e.target.value)
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
         if (!re.test(String(e.target.value).toLowerCase())) {
-            setEmailError('некорректный емайл')
+            setEmailError('email некорректен')
             if (!e.target.value) {
-                setEmailError('Емайл не может быть пустым')
+                setEmailError('email не может быть пустым')
             }
         } else {
             setEmailError('')
@@ -40,7 +40,7 @@ const FirstLogin = () => {
     const passwordHandler = (e) => {
         setPassword(e.target.value)
         if (e.target.value.length > 0 || e.target.value.length > 4) {
-            setPasswordError('пароль должен быть больще 4 и менше 8')
+            setPasswordError('пароль должен быть больше 4 и меньше 8')
             if (!e.target.value.length > 0 || e.target.value.length > 4) {
                 setPasswordError('')
             }
@@ -68,9 +68,7 @@ const FirstLogin = () => {
             <AiOutlineEyeInvisible onClick={() => setInfo(!info)} className={"firstLogin--block__login--input__icon"}/>
         </div>
 
-
     }
-
 
     const start = (e) => {
         switch (e.target.name) {
@@ -82,6 +80,7 @@ const FirstLogin = () => {
                 break
         }
     }
+
     return (
         <div id="firstLogin">
             <div className="container">

@@ -5,6 +5,7 @@ import Operations from "./operations/Operations";
 import Common from "./common/Common";
 import Bag from "./bag/Bag";
 import Safety from "./ safety/Safety";
+import Certificates from "./certificates/Certificates";
 
 const Account = () => {
     const [selectedTab, setSelectedTab] = useState(0)
@@ -51,6 +52,10 @@ const Account = () => {
                         {
                             selectedTab === 4 &&
                             <Safety/>
+                        }
+                        {
+                            selectedTab === 5 &&
+                            <Certificates/>
                         }
 
                     </div>

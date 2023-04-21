@@ -1,0 +1,101 @@
+.certificates {
+  width: 967px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 1px;
+
+  p {
+    padding: 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  table {
+    padding: 50px 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    tf {
+      display: flex;
+    }
+
+    img {
+      padding: 12px;
+      cursor: pointer;
+    }
+
+    th {
+      padding-bottom: 10px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
+
+  &--login {
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.cong {
+  padding: 70px 100px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.264px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+
+  h1 {
+    padding: 30px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+  }
+
+  p {
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
