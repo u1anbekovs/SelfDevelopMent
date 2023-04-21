@@ -17,6 +17,11 @@
       <change beforePath="$PROJECT_DIR$/src/assets/img/TelamonCleaner_id643e3a0db6991f2.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +44,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

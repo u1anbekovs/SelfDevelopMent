@@ -17,6 +17,7 @@ const Common = () => {
                 <h1>Личные данные</h1>
 
                 <div className="common--contacts__input">
+                    <div className="common--contacts__input--wrap">
                     <div className="common--contacts__input--name">
                         <div>
                             <p>ФИО</p>
@@ -29,7 +30,8 @@ const Common = () => {
                     </div>
                     <div>
                         <p>Номер телефона</p>
-                        <input type="tel:+996" placeholder="+996 770 55 74 47"/>
+                        <input type="tel:+996" placeholder="+996 770 55 74 47" />
+                    </div>
                     </div>
                 </div>
 
