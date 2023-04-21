@@ -4,6 +4,7 @@ import Payment from "./payment/Payment";
 import Operations from "./operations/Operations";
 import Common from "./common/Common";
 import Bag from "./bag/Bag";
+import Safety from "./ safety/Safety";
 
 const Account = () => {
     const [selectedTab, setSelectedTab] = useState(0)
@@ -46,6 +47,10 @@ const Account = () => {
                         {
                             selectedTab === 3 &&
                             <Bag/>
+                        }
+                        {
+                            selectedTab === 4 &&
+                            <Safety/>
                         }
 
                     </div>
