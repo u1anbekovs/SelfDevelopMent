@@ -1,0 +1,83 @@
+.common {
+  width: 967px;
+  height: 100%;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(7px);
+  border-radius: 1px;
+  &--btn{
+    button{
+      transition: 0.5s all;
+      margin-right: 20px;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      border-radius: 1px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+    button:focus{
+      background: #FFFFFF;
+      color: #595FEB;
+    }
+  }
+  &--contacts{
+    padding: 50px 0;
+    &__input{
+      display: flex;
+      flex-direction: column;
+      p{
+        padding: 10px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+      input{
+        width: 403px;
+        outline: none;
+        color: white;
+        padding: 8px;
+        background: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 1px;
+      }
+      &--name{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+    }
+    h1{
+      padding: 20px 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+    }
+  }
+  &--logos {
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+    }
+    p{
+      padding-top: 15px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
+}

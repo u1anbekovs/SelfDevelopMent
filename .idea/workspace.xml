@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/operations/Operations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/operations/Operations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/payment/Payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/payment/Payment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +144,7 @@
       <workItem from="1682006848781" duration="5429000" />
       <workItem from="1682040605610" duration="76000" />
       <workItem from="1682073834673" duration="5235000" />
+      <workItem from="1682084614919" duration="2300000" />
     </task>
     <servers />
   </component>
