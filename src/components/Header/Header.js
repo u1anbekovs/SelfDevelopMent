@@ -1,6 +1,3 @@
-
-
-
 import React, {useState} from 'react';
 import {NavLink} from 'react-router-dom';
 import Logo from "./../../assets/img/logo.svg"
@@ -43,14 +40,15 @@ const Header = () => {
                             }}>SELF DEVELOPING SCHOOL</span>
                         </div>
                         <nav className='header--navbar'>
-                            <NavLink onClick={() => window.scroll(0,0)} to={"/"}>Главная</NavLink>
-                            <NavLink onClick={() => window.scroll(0,0)} to={"/our-course"}>Наши курсы</NavLink>
-                            <NavLink onClick={() => window.scroll(0,0)} to={"/about-us"}>О нас</NavLink>
+                            <NavLink onClick={() => window.scroll(0, 0)} to={"/"}>Главная</NavLink>
+                            <NavLink onClick={() => window.scroll(0, 0)} to={"/our-course"}>Наши курсы</NavLink>
+                            <NavLink onClick={() => window.scroll(0, 0)} to={"/about-us"}>О нас</NavLink>
                         </nav>
                         <NavLink to={"/login"}>
                             <div onClick={local} className='header--login'>
                                 <button className='header--login__btn'>
-                                    <CiUser className='header--login__btn--icon'/>Войти
+                                    <CiUser className='header--login__btn--icon'/>
+                                    Войти
                                 </button>
                             </div>
                         </NavLink>
@@ -62,6 +60,15 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
                     <div style={{
                         display: menu ? "block" : "none",
                     }}>
@@ -69,7 +76,8 @@ const Header = () => {
                             <NavLink to={"/"}>Главная</NavLink>
                             <NavLink to={"/our-course"}>Наши курсы</NavLink>
                             <NavLink to={"/about-us"}>О нас</NavLink>
-                            <button className='header--towBtn'><CiUser className='header--towBtn__icon'/>Войти</button>
+                            <button className='header--towBtn'>
+                                <CiUser className='header--towBtn__icon'/>Войти</button>
                         </div>
                     </div>
                     <div className='header--menu'>
