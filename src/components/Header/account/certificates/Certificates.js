@@ -4,6 +4,7 @@ import askar from "../../../../assets/img/akar-icons_eye.svg"
 import askar1 from "../../../../assets/img/akar-icons_cloud-download.svg"
 import {useNavigate} from "react-router-dom";
 import {useDispatch} from "react-redux";
+import {SlArrowDown} from "react-icons/sl";
 
 const Certificates = () => {
     const dispatch = useDispatch()
@@ -61,6 +62,25 @@ const Certificates = () => {
                 </td>
 
             </table>
+            <details>
+                <summary>
+                    <p>Пакет участия “Интенсив”</p>
+                    <SlArrowDown/>
+                </summary>
+                <tr>
+                    <p>Дата</p>
+                    <p>05.09.22</p>
+                </tr>
+                <tr>
+                    <p>Статус</p>
+                    <p>Пройдено</p>
+                </tr>
+                <div className="flex items-center gap-[10px]">
+                    <img onClick={() => navBtn()} src={askar} alt=""/>
+                    <img onClick={() => navBtn()} src={askar1} alt=""/>
+                </div>
+            </details>
+
         </div>
     );
 };

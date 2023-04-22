@@ -1,11 +1,37 @@
 .certificates {
+
   width: 967px;
   padding: 50px;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #FFFFFF;
   backdrop-filter: blur(7px);
   border-radius: 1px;
-
+  details{
+    display: none;
+    tr{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+    summary{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
   p {
     padding: 15px 0;
     font-style: normal;
@@ -97,5 +123,47 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  .certificates {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificates table {
+    display: none;
+  }
+  .certificates details{
+    display: block;
+  }
+  .certificates {
+    width: 715px;
+  }
+}
+
+@media (max-width: 576px) {
+  .certificates {
+    width: 500px;
+  }
+}
+
+@media (max-width: 451px) {
+  .certificates {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .certificates--login h1 {
+    font-size: 27px;
+  }
+  .certificates p {
+    font-size: 13px;
   }
 }

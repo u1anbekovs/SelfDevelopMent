@@ -5,13 +5,15 @@
   border: 1px solid #FFFFFF;
   backdrop-filter: blur(7px);
   border-radius: 1px;
-  &--texts{
+
+  &--texts {
     width: 60%;
     display: flex;
     align-items: start;
     justify-content: space-between;
     padding: 30px 0;
   }
+
   h1 {
     font-style: normal;
     font-weight: 600;
@@ -27,5 +29,41 @@
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  .story {
+    width: 146%;
+  }
+  .story--texts {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .story {
+    width: 130%;
+  }
+}
+
+@media (max-width: 576px) {
+  .story {
+    width: 100%;
+  }
+  .story--texts {
+    flex-direction: row-reverse;
+  }
+  .story--texts {
+    width: 79%;
+  }
+}
+@media (max-width: 320px) {
+  .story p {
+    font-size: 10px;
   }
 }

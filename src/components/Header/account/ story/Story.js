@@ -10,7 +10,7 @@ const Story = () => {
             </div>
             <p>Сегодня</p>
             <div className="story--texts">
-                <div>
+                <div className="story--texts__text-one">
                     <p>05.09.22</p>
                     <p>05.09.22</p>
                     <p>05.09.22</p>
