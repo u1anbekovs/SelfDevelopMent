@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_04__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_19__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Congrass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/akar-icons_cloud-download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/akar-icons_eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Congras.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/img/TelamonCleaner_id643e3a0db6991f2.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
