@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Bag.scss"
 import {useNavigate} from "react-router-dom";
+import {SlArrowDown} from "react-icons/sl";
 
 const Bag = () => {
 
@@ -31,6 +32,20 @@ const Bag = () => {
                     <p>Активно</p>
                 </td>
             </table>
+            <details>
+                <summary>
+                    <p>Пакет участия “Интенсив”</p>
+                    <SlArrowDown/>
+                </summary>
+                <tr>
+                    <p>Активация</p>
+                    <p>05.09.22</p>
+                </tr>
+                <tr>
+                    <p>Статус</p>
+                    <p>Активно</p>
+                </tr>
+            </details>
 
         </div>
     );
