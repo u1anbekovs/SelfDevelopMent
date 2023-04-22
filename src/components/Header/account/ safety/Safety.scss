@@ -84,3 +84,25 @@
     }
   }
 }
+
+
+
+@media (max-width: 992px) {
+  .safety {
+    width: 100%;
+    &--password {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .safety--tex h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .safety--tex h1 {
+    font-size: 27px;
+  }
+}
