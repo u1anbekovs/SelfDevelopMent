@@ -6,7 +6,32 @@
   border: 1px solid #FFFFFF;
   backdrop-filter: blur(7px);
   border-radius: 1px;
-
+  details{
+    display: none;
+    tr{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+    summary{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
   table {
     padding-top: 50px;
     display: flex;
@@ -52,4 +77,40 @@
       color: #FFFFFF;
     }
   }
+}
+
+@media (max-width: 1140px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  .bag {
+    width: 119%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bag {
+    width: 100%;
+  }
+}
+
+
+
+
+@media (max-width: 380px) {
+  .bag table {
+    display: none;
+  }
+  .bag details{
+    display: block;
+    margin: 26px 0;
+  }
+}
+
+@media (max-width: 320px) {
+
 }
