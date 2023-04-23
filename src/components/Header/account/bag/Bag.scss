@@ -83,22 +83,16 @@
 
 }
 @media (max-width: 1024px) {
-
-}
-
-@media (max-width: 992px) {
-  .bag {
-    width: 119%;
-  }
-}
-
-@media (max-width: 768px) {
   .bag {
     width: 100%;
   }
 }
 
-
+@media (max-width: 451px) {
+  .bag--logo h1 {
+    font-size: 30px;
+  }
+}
 
 
 @media (max-width: 380px) {
@@ -109,8 +103,4 @@
     display: block;
     margin: 26px 0;
   }
-}
-
-@media (max-width: 320px) {
-
 }

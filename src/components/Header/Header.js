@@ -74,11 +74,14 @@ const Header = () => {
                         display: menu ? "block" : "none",
                     }}>
                         <div className="header--nav">
-                            <NavLink to={"/"}>Главная</NavLink>
-                            <NavLink to={"/our-course"}>Наши курсы</NavLink>
-                            <NavLink to={"/about-us"}>О нас</NavLink>
-                            <button className='header--towBtn'>
-                                <CiUser className='header--towBtn__icon'/>Войти</button>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/"}>Главная</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/our-course"}>Наши курсы</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/about-us"}>О нас</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/login"}>
+                                <button className='header--towBtn'>
+                                    <CiUser className='header--towBtn__icon'/>Войти</button>
+                            </NavLink>
+
                         </div>
                     </div>
                     <div className='header--menu'>
@@ -87,8 +90,8 @@ const Header = () => {
                         <div/>
                     </div>
                 </div>
-                <NavLink to={"/account"}>account</NavLink>
             </div>
+            <NavLink to={"/account"}>account</NavLink>
         </div>
     );
 };
