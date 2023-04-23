@@ -32,6 +32,7 @@ const Courses = () => {
                                 </div>
                             ))}
                         </div>
+
                         <img src={Book} alt="" className="mk--book1"/>
 
 

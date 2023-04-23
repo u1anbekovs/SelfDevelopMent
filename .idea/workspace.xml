@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2023_21_14_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2023_21_14__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_15_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_15_14__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/ story/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ story/Story.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/account/ story/Story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ story/Story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +155,12 @@
       <workItem from="1682073834673" duration="5235000" />
       <workItem from="1682084614919" duration="2300000" />
       <workItem from="1682142314214" duration="1642000" />
+      <workItem from="1682173509938" duration="552000" />
+      <workItem from="1682198822496" duration="3309000" />
+      <workItem from="1682240653112" duration="36000" />
+      <workItem from="1682241337413" duration="117000" />
+      <workItem from="1682242964129" duration="603000" />
+      <workItem from="1682279555825" duration="6743000" />
     </task>
     <servers />
   </component>

@@ -7,10 +7,53 @@ import Bag from "./bag/Bag";
 import Safety from "./ safety/Safety";
 import Certificates from "./certificates/Certificates";
 import Story from "./ story/Story";
+import {FaUserAlt} from "react-icons/fa"
+import {CgCreditCard} from "react-icons/cg"
+import {TbCalendarStats} from "react-icons/tb"
+import {TbPlayerPauseFilled} from "react-icons/tb"
+import {TbCertificate} from "react-icons/tb"
+import {GiBackwardTime} from "react-icons/gi"
 
 const Account = () => {
     const [selectedTab, setSelectedTab] = useState(0)
-    const movieTabs = ["Общие", "Оплата", "Операции", "Пакет", "Безопасность", "Сертефикаты", "История"]
+    const movieTabs = [
+        {
+            id: 1,
+            title: "Общие",
+            icon: <FaUserAlt/>,
+        },
+        {
+            id: 2,
+            title: "Оплата",
+            icon: <CgCreditCard/>,
+        },
+        {
+            id: 3,
+            title: "Операции",
+            icon: <TbCalendarStats/>,
+        },
+        {
+            id: 4,
+            title: "Пакет",
+            icon: <TbPlayerPauseFilled/>,
+        },
+        {
+            id: 5,
+            title: "Безопасность",
+            icon: <CgCreditCard/>,
+        },
+        {
+            id: 6,
+            title: "Сертефикаты",
+            icon: <TbCertificate/>,
+        },
+        {
+            id: 6,
+            title: "История",
+            icon: <GiBackwardTime/>
+        },
+    ]
+
 
     function selectTabs(index) {
         setSelectedTab(index)
@@ -24,10 +67,13 @@ const Account = () => {
 
                     <div className="account--block">
                         {movieTabs.map((movieTabs, index) => (
-                            <span className="cursor-pointer"
-                                  onClick={() => {
-                                      selectTabs(index)
-                                  }}>{movieTabs}</span>
+                            <span onClick={() => {
+                                selectTabs(index)
+                            }}>
+                                <hr/>
+                                {movieTabs.icon}
+                                <p>{movieTabs.title}</p>
+                            </span>
                         ))}
                     </div>
 
