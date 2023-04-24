@@ -1,5 +1,5 @@
 #book {
-  padding: 200px 0;
+  padding-top: 200px;
 
   .book {
     &--styImg {
@@ -180,10 +180,35 @@
     }
   }
 }
+.pageNumbers {
+  padding: 50px 0 200px 100px;
+  list-style: none;
+  display: flex;
+}
+
+.pageNumbers li {
+  padding: 5px 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  color: #FFFFFF;
+}
+
+.pageNumbers li.active {
+  background-color: white;
+  color: black;
+}
 
 @media (max-width: 992px) {
   #book .book--cards {
     justify-content: center;
+  }
+  .pageNumbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
   }
 }
 @media (max-width: 576px) {
@@ -192,6 +217,12 @@
   }
   #book .book--tabs button {
     margin: 10px;
+  }
+}
+@media (max-width: 451px) {
+  .pageNumbers li {
+    padding: 2px 7px;
+    margin: 2px;
   }
 }
 @media (max-width: 415px) {

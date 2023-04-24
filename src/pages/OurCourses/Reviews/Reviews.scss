@@ -175,6 +175,10 @@
   .review .slick-slide {
     width: 590px !important;
   }
+  .review--title {
+    padding-left: 30px;
+    font-size: 33px;
+  }
 }
 @media (max-width: 451px) {
   .review .slick-slider {
@@ -194,7 +198,7 @@
 @media (max-width: 320px) {
   .review {
     &--title {
-      padding-left: 47px;
+      padding-left: 0;
     }
 
     &--cards {
