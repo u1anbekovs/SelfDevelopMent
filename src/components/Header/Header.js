@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from 'react-redux';
 
 
 const Header = () => {
-const [btn,setBtn] = useState(false)
+    const [btn, setBtn] = useState(false)
     const [menu, setMenu] = useState(false)
 
     const modal = useSelector(state => state.login)
@@ -49,17 +49,17 @@ const [btn,setBtn] = useState(false)
                                  setBtn(!btn)
                              }
                              style={{
-                                 height: btn ? "100px" : "" ,
+                                 height: btn ? "100px" : "",
                              }}
                         >
                             <div>
-                            <NavLink to={"/login"}>
-                                <h1>Войти</h1></NavLink>
-                            <NavLink to={"/account"}><h2
-                                style={{
-                                    display: btn ? "block" : "none"
-                                }}
-                            >account</h2></NavLink>
+                                <NavLink to={"/login"}>
+                                    <h1 onClick={() => local()}>Войти</h1></NavLink>
+                                <NavLink to={"/account"}><h2
+                                    style={{
+                                        display: btn ? "block" : "none"
+                                    }}
+                                >account</h2></NavLink>
                             </div>
                         </div>
 
@@ -80,13 +80,17 @@ const [btn,setBtn] = useState(false)
                             <NavLink to={"/our-course"}>Наши курсы</NavLink>
                             <NavLink to={"/about-us"}>О нас</NavLink>
                             <button className='header--towBtn'>
-                                className='header--towBtn__icon'/>Войти</button>
-                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/"}>Главная</NavLink>
-                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/our-course"}>Наши курсы</NavLink>
-                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/about-us"}>О нас</NavLink>
-                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/login"}>
+                                className='header--towBtn__icon'/>Войти
+                            </button>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/"}>Главная</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/our-course"}>Наши
+                                курсы</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/about-us"}>О
+                                нас</NavLink>
+                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/login"}>
                                 <button className='header--towBtn'>
-                                    <CiUser className='header--towBtn__icon'/>Войти</button>
+                                    <CiUser className='header--towBtn__icon'/>Войти
+                                </button>
                             </NavLink>
 
                         </div>
@@ -99,7 +103,6 @@ const [btn,setBtn] = useState(false)
                 </div>
 
             </div>
-            <NavLink to={"/account"}>account</NavLink>
         </div>
     );
 };
