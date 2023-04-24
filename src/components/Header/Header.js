@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from 'react-redux';
 
 
 const Header = () => {
-
+const [btn,setBtn] = useState(false)
     const [menu, setMenu] = useState(false)
 
     const modal = useSelector(state => state.login)
@@ -20,7 +20,6 @@ const Header = () => {
         dispatch({type: "OPEN_LOGIN", payload: log})
         localStorage.setItem("login", JSON.stringify(true))
     }
-
     return (
         <div style={{
             display: !payment && !modal ? 'block' : 'none'
@@ -44,14 +43,26 @@ const Header = () => {
                             <NavLink onClick={() => window.scroll(0, 0)} to={"/our-course"}>Наши курсы</NavLink>
                             <NavLink onClick={() => window.scroll(0, 0)} to={"/about-us"}>О нас</NavLink>
                         </nav>
-                        <NavLink to={"/login"}>
-                            <div onClick={local} className='header--login'>
-                                <button className='header--login__btn'>
-                                    <CiUser className='header--login__btn--icon'/>
-                                    Войти
-                                </button>
+
+                        <div className="header--login"
+                             onClick={() =>
+                                 setBtn(!btn)
+                             }
+                             style={{
+                                 height: btn ? "100px" : "" ,
+                             }}
+                        >
+                            <div>
+                            <NavLink to={"/login"}>
+                                <h1>Войти</h1></NavLink>
+                            <NavLink to={"/account"}><h2
+                                style={{
+                                    display: btn ? "block" : "none"
+                                }}
+                            >account</h2></NavLink>
                             </div>
-                        </NavLink>
+                        </div>
+
 
                         <div onClick={() => setMenu(!menu)} className='header--menu'>
                             <div className='header--menu__parentMenu'>
@@ -61,19 +72,15 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
                     <div style={{
                         display: menu ? "block" : "none",
                     }}>
                         <div className="header--nav">
+                            <NavLink to={"/"}>Главная</NavLink>
+                            <NavLink to={"/our-course"}>Наши курсы</NavLink>
+                            <NavLink to={"/about-us"}>О нас</NavLink>
+                            <button className='header--towBtn'>
+                                className='header--towBtn__icon'/>Войти</button>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/"}>Главная</NavLink>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/our-course"}>Наши курсы</NavLink>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0,0)} to={"/about-us"}>О нас</NavLink>
@@ -90,6 +97,7 @@ const Header = () => {
                         <div/>
                     </div>
                 </div>
+
             </div>
             <NavLink to={"/account"}>account</NavLink>
         </div>

@@ -25,6 +25,12 @@ const TwoLogin = () => {
                         <h2>SELF DEVELOPING SCHOOL</h2>
                         <div className="twoLogin--text__block">
                             <h3>Востановить пароль</h3>
+                            <div className="text-red-800">
+                            {forgotError ? <p>
+                                Пароль не совпадает
+                            </p> : ""
+                            }
+                            </div>
                             <input type="password" placeholder={'Новый пароль'}
                                    onChange={(e) => setForget(e.target.value)}
                                    style={{
