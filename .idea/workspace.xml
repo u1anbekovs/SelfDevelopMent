@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2023_21_14_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2023_21_14__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_16_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_16_26__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_15_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_15_14__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ safety/Safety.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/ story/Story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/ story/Story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Администратор/WebstormProjects/self-program",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Администратор/WebstormProjects/self-program&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\self-program1\src\pages\Login\FirstLogin\password" />
@@ -167,6 +153,7 @@
       <workItem from="1682241337413" duration="117000" />
       <workItem from="1682242964129" duration="603000" />
       <workItem from="1682279555825" duration="6743000" />
+      <workItem from="1682320661227" duration="688000" />
     </task>
     <servers />
   </component>
