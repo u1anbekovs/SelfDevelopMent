@@ -76,22 +76,33 @@ const Header = () => {
                         display: menu ? "block" : "none",
                     }}>
                         <div className="header--nav">
-                            <NavLink to={"/"}>Главная</NavLink>
-                            <NavLink to={"/our-course"}>Наши курсы</NavLink>
-                            <NavLink to={"/about-us"}>О нас</NavLink>
-                            <button className='header--towBtn'>
-                                className='header--towBtn__icon'/>Войти
-                            </button>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/"}>Главная</NavLink>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/our-course"}>Наши
                                 курсы</NavLink>
                             <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/about-us"}>О
                                 нас</NavLink>
-                            <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/login"}>
-                                <button className='header--towBtn'>
-                                    <CiUser className='header--towBtn__icon'/>Войти
-                                </button>
-                            </NavLink>
+
+                            <div
+                                onClick={() =>
+                                    setBtn(!btn)
+                                }
+                                style={{
+                                    height: btn ? "100px" : "",
+                                }}
+                            >
+                                <div>
+                                    <NavLink onClick={() => setMenu(!menu) || window.scroll(0, 0)} to={"/login"}>
+                                        <button className='header--towBtn'>
+                                            <CiUser className='header--towBtn__icon'/>Войти
+                                        </button>
+                                    </NavLink>
+                                    <NavLink to={"/account"}><h2
+                                        style={{
+                                            display: btn ? "block" : "none"
+                                        }}
+                                    >account</h2></NavLink>
+                                </div>
+                            </div>
 
                         </div>
                     </div>

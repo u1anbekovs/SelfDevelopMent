@@ -102,6 +102,11 @@
     padding-top: 150px;
   }
 }
+@media (max-width: 768px) {
+  #leave .container .leave--leave-block__leave-text h1 {
+    font-size: 33px;
+  }
+}
 
 @media (max-width: 451px) {
   #leave .img1 {

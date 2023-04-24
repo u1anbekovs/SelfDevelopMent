@@ -50,6 +50,7 @@ const Staty = () => {
                             <button className="book--button" onClick={() => navigate(`/books`) || window.scroll(0,0)}>Смотреть все курсы
                             </button>
                         </center>
+
                     </div>
                 </div>
             </div>
