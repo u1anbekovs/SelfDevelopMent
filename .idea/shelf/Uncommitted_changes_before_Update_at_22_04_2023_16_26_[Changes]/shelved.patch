@@ -1,0 +1,80 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,27 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_04__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2023_0_19__Changes_.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/assets/img/Congrass.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/assets/img/akar-icons_cloud-download.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/assets/img/akar-icons_eye.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Certificates.scss" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Header/account/certificates/Congras.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/assets/img/TelamonCleaner_id643e3a0db6991f2.exe" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2023_23_37__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/Account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/Account.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/common/Common.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/account/bag/Bag.scss" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -48,6 +29,13 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubProjectSettings">
++    <option name="branchProtectionPatterns">
++      <list>
++        <option value="main" />
++      </list>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+Index: src/pages/Login/FirstLogin/FirstLogin.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pages/Login/FirstLogin/FirstLogin.js b/src/pages/Login/FirstLogin/FirstLogin.js
+--- a/src/pages/Login/FirstLogin/FirstLogin.js	
++++ b/src/pages/Login/FirstLogin/FirstLogin.js	
+@@ -2,9 +2,13 @@
+ import Book from "./../../../assets/img/logo.svg"
+ import {AiOutlineEye, AiOutlineEyeInvisible} from "react-icons/ai";
+ import {Link} from "react-router-dom";
++import {useNavigate} from "react-router-dom";
+ 
+ 
+ const FirstLogin = () => {
++
++    const navigate = useNavigate()
++
+     const [email, setEmail] = useState('')
+     const [password, setPassword] = useState('')
+     const [info, setInfo] = useState(false)
+@@ -68,6 +72,7 @@
+             <AiOutlineEyeInvisible onClick={() => setInfo(!info)} className={"firstLogin--block__login--input__icon"}/>
+         </div>
+ 
++
+     }
+ 
+     const start = (e) => {
