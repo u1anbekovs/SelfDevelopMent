@@ -67,9 +67,7 @@ const Account = () => {
 
                     <div className="account--block">
                         {movieTabs.map((movieTabs, index) => (
-                            <span onClick={() => {
-                                selectTabs(index)
-                            }}>
+                            <span onClick={() => selectTabs(index) || window.scroll(0,300)}>
                                 <hr/>
                                 {movieTabs.icon}
                                 <p>{movieTabs.title}</p>
