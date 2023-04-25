@@ -63,6 +63,7 @@
   #account {
     .container {
       .account {
+        padding: 150px 0;
         justify-content: center;
         flex-direction: column;
       }
@@ -75,6 +76,7 @@
 @media (max-width: 451px) {
   #account .container .account {
     align-items: center;
+    padding: 100px 0;
   }
   #account .container .account--block span {
     padding: 19px 25px;
